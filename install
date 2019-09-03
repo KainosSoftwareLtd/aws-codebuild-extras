@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# variables assumed to already exist
+CODEBUILD_BUILD_ID=${CODEBUILD_BUILD_ID}
+CODEBUILD_LOG_PATH=${CODEBUILD_LOG_PATH}
+AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}
+
 export CI=true
 export CODEBUILD=true
 
